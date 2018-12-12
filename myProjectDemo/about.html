@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Responsive web component goes here. -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Experience Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="JY Portfolio" />
+    <meta name="author" content="JY" />
+
+    <!-- Libraries that are imported for the website -->
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.css" />
+    <link rel="stylesheet" href="assets/css/flexslider.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- JS -->
+    <script src="assets/js/modernizr-2.6.2.min.js"></script>
+  </head>
+
+  <body>
+    <!-- Formatting the page layout -->
+    <div id="formatMain-page">
+      <!-- Nav bar (on the left side) -->
+      <a href="#" class="js-formatMain-nav-toggle formatMain-nav-toggle"
+        ><i></i
+      ></a>
+      <aside
+        id="formatMain-aside"
+        role="complementary"
+        class="border js-fullheight"
+      >
+        <!-- The JY box which redirects to home -->
+        <h1 id="formatMain-logo">
+          <a href="index.html"><span>JY</span><span>PARK</span></a>
+        </h1>
+        <!-- The main menus in the nav bar. Highlights the page you are on -->
+        <nav id="formatMain-main-menu" role="navigation">
+          <ul>
+			<li><a href="index.html">Home</a></li>
+			<li class="formatMain-active">
+					<a href="about.html">About</a>
+				  </li>
+            <li><a href="experience.html">Experience</a></li>
+            
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <!-- Chatbot API -->
+        <div class="formatMain-footer">
+          <iframe
+            allow="microphone;"
+            width="260"
+            height="380"
+            src="https://console.dialogflow.com/api-client/demo/embedded/5617fb62-ba58-4a42-9e98-2cc84fbf46eb"
+          >
+          </iframe>
+        </div>
+	  </aside>
+	  
+      <div id="formatMain-main">
+        <br /><br /><br /><br />
+        <div class="formatMain-about">
+          <div class="groupBox-fluid">
+            <div class="row">
+              <div class="col-md-6">
+                <div
+                  class="about-img animate-box"
+                  data-animate-effect="fadeInLeft"
+                  style="background-image: url(assets/images/profile.png); width: 300px; height: 400px; margin-top: 5px; margin-left: 100px;"
+                ></div>
+              </div>
+              <div
+                class="col-md-6 animate-box"
+                data-animate-effect="fadeInLeft"
+              >
+                <div class="about-desc">
+                  <h3>About Me</h3>
+                  <h5>#STARTUPS #TECH #TRAVEL</h5>
+                  <p>
+                    I’m a junior at Carnegie Mellon University pursuing a B.S.
+                    in Information Systems and an additional major in
+                    Human-Computer Interaction. <br /><br />
+                    My personal interests lies in UI / UX design, front-end
+                    development, project management, startups, and software
+                    engineering. I spent the past summer interning at ShowClix
+                    as a mobile software engineer, where I learned how software
+                    development and design are implemented in real world
+                    applications. <br />
+                    <br />
+                    After first year in college, I served two years in the army
+                    in South Korea as a Korean Augmentation to the US Army.
+                    Through this opportunity, I grew as an individual learning
+                    the values of discipline, responsibility, and
+                    professionalism.
+                  </p>
+                </div>
+                <div class="fancy-collapse-panel">
+                  <div
+                    class="panel-group"
+                    id="accordion"
+                    role="tablist"
+                    aria-multiselectable="true"
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="seets/js/bootstrap.min.js"></script>
+    <!-- Waypoints -->
+    <script src="assets/js/jquery.waypoints.min.js"></script>
+    <!-- Flexslider -->
+    <script src="assets/js/jquery.flexslider-min.js"></script>
+    <!-- JS -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Responsive web component goes here. -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Experience Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="JY Portfolio" />
+    <meta name="author" content="JY" />
+
+    <!-- Libraries that are imported for the website -->
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.css" />
+    <link rel="stylesheet" href="assets/css/flexslider.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- JS -->
+    <script src="assets/js/modernizr-2.6.2.min.js"></script>
+  </head>
+
+  <body>
+    <!-- Formatting the page layout -->
+    <div id="formatMain-page">
+      <!-- Nav bar (on the left side) -->
+      <a href="#" class="js-formatMain-nav-toggle formatMain-nav-toggle"
+        ><i></i
+      ></a>
+      <aside
+        id="formatMain-aside"
+        role="complementary"
+        class="border js-fullheight"
+      >
+        <!-- The JY box which redirects to home -->
+        <h1 id="formatMain-logo">
+          <a href="index.html"><span>JY</span><span>PARK</span></a>
+        </h1>
+        <!-- The main menus in the nav bar. Highlights the page you are on -->
+        <nav id="formatMain-main-menu" role="navigation">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="experience.html">Experience</a></li>
+            <li><a href="projects.html">Projects</a></li>
+			<li class="formatMain-active"><a href="contact.html">Contact</a></li>
+
+            
+          </ul>
+        </nav>
+        <!-- Chatbot API -->
+        <div class="formatMain-footer">
+          <iframe
+            allow="microphone;"
+            width="260"
+            height="380"
+            src="https://console.dialogflow.com/api-client/demo/embedded/5617fb62-ba58-4a42-9e98-2cc84fbf46eb"
+          >
+          </iframe>
+        </div>
+      </aside>
+
+      <div id="formatMain-main">
+        <div id="get-in-touch" class="formatMain-bg-color">
+          <div class="formatMain-narrow-content">
+            <div class="row">
+              <br />
+              <br />
+              <br />
+              <br />
+              <h2>Contact Me</h2>
+              <br />
+            </div>
+
+            <div class="row">
+              <div
+                class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
+                data-animate-effect="fadeInLeft"
+              >
+                <div>
+                  <form
+                    name="contact"
+                    action="form_submit.html"
+                    method="post"
+                    onSubmit="return validate();"
+                  >
+                    <fieldset>
+                      <h4 style="text-decoration: underline; ">
+                        Please leave me a brief message below.
+                      </h4>
+                      Name:<br />
+                      <input
+                        type="text"
+                        name="Name"
+                        value=""
+                        size="20"
+                        maxlength="250"
+                        required
+                      />
+                      <br />
+                      E-mail Address:<br />
+                      <input
+                        type="text"
+                        name="email"
+                        value=""
+                        size="20"
+                        maxlength="50"
+                      />
+                      <br /><br />
+
+                      Your Message:<br />
+                      <textarea
+                        name="Message"
+                        rows="5"
+                        cols="50"
+                        maxlength="10000"
+                      >
+                      </textarea>
+                      <br /><br />
+
+                      <input type="checkbox" name="" value="" /> Please indicate
+                      if you would like to connect on linkedIn <br /><br />
+                      <input type="submit" value="Submit" />
+                    </fieldset>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="seets/js/bootstrap.min.js"></script>
+    <!-- Waypoints -->
+    <script src="assets/js/jquery.waypoints.min.js"></script>
+    <!-- Flexslider -->
+    <script src="assets/js/jquery.flexslider-min.js"></script>
+    <!-- MAIN JS -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
